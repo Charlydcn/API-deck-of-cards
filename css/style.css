@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Calibri;
+}
+
+#errors-container {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 1rem;
+}
+
+#errors-container .error-msg {
+    font-size: 1.5rem;
+    background-color: #ffb1b1;
+    color: #5e0808;
+    padding: 1rem 3rem;
+    transition: transform .5s;
+}
+
+#main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#actions-container {
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+button {
+    border-radius: 7px;
+    padding: 20px;
+    font-size: 2em;
+}
+
+#action-draw input {
+    font-size: 1em;
+    width: 50px;
+    text-align: center;
+}
+
+#cards-container {
+    padding: 0 30px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.card {
+    width: 170px;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piocher des cartes</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="main-container">
+        <div id="errors-container"></div>
+
+
+        <div id="actions-container">
+            <button id="action-reset">Nouveau paquet</button>
+            <button id="action-draw">
+                Piocher
+                <input type="number" name="nb-draw" value="1" min="1" max="52">
+                carte(s)
+            </button>
+        </div>
+
+        <div id="cards-container"></div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
